@@ -4,7 +4,7 @@ Extract create and access dates from IE Pinned Tile
 Presented in IE as "Top Sites"
 msapplication.xml files in \Users\[user]\AppData\Local\Microsoft\Internet Explorer\Tiles\pin-[digits]\msapplication.xml
 
-example:
+example:<br>
 \<?xml version="1.0" encoding="utf-8"?>
 \<browserconfig>\<msapplication>\<config>\<site src="http://www.nirsoft.net/"/> <b>\<date>0x918cbab8,0x01d6e2e5\</date>\<accdate>0x918d55eb,0x01d6e2e5\</accdate></b>\</config>\<tile>\<wide310x150logo/>\<square310x310logo/>\<square70x70logo/>\<favorite src="C:\Users\lwolfenden\Favorites\NirSoft - freeware utilities password recovery, system utilities, desktop utilities.url"/>\</tile>\</msapplication>\</browserconfig>
 
