@@ -1,5 +1,5 @@
 # Extract Dates from IE Pinned Tile ("Top sites")
-# e.g., \Users\[user]\AppData\Local\Microsoft\Internet Explorer\Tiles\pin-12633731210\msapplication.xml
+# e.g., \Users\[user]\AppData\Local\Microsoft\Internet Explorer\Tiles\pin[-][digits]\msapplication.xml
 # 20210104:zG
 
 param (
