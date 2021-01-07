@@ -6,6 +6,11 @@ param (
     [Parameter(Mandatory=$true)][string]$inFile
     )
 
+if(![System.IO.File]::Exists($inFile)){
+    # file with path $path doesn't exist
+    write-host "`"$inFile`" doesn't appear to be a valid filename: quitting."
+    exit 1
+}
 [xml]$mytile=get-content -path $inFile
     write-Output $mytile.browserconfig.msapplication.config.site
 $mybytes=$mytile.browserconfig.msapplication.config.date.Split(',')
